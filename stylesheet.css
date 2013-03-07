@@ -1,0 +1,39 @@
+/* only used em or % as units. For more information see: http://stackoverflow.com/questions/5183733/font-sizes-ems-vs-pixels-in-2011-which-one-should-be-used*/ 
+
+body {
+	background-color: black;
+} 
+
+.footer img {
+    height: 3em;
+    width: 3em;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	position: relative;
+    margin-top: 2em;
+	margin-left: auto;
+}
+
+.menu ul li {
+	display: inline;
+    padding: 0.5em;
+	font-family: Futura, Tahoma, sans-serif;
+	color: white;
+	background-color: gray;
+}
+
+.menu ul li a{
+	 text-decoration: none;
+	 color: white;
+}
+
+p{
+	color: white;
+}
+
+h3{
+	color: white;
+}
